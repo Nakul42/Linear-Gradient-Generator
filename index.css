@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.btn1 {
+    padding: 25px 60px;
+    border: 1px solid #feb47b;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 25px 60px;
+    border: 1px solid #ff7e5f;
+    background: transparent;
+    cursor: pointer;
+}
+
+.para {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.232);
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
